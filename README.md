@@ -22,7 +22,7 @@ The project goal is to create a maze like game. A robot is wandering in the maze
     > esm start
     > make
     ```
-5. Open your browser and go to http://localhost/. You should see something like this: 
+5. Open your browser and go to http://localhost/. You should see something like this: ![Game image](studio/game_example.png)
 
 6. Go back to the terminal and start the server
     ```
@@ -47,6 +47,9 @@ The `Restart` button can be used to restart the game, with the robot respawning 
 
 Once the robot exits the maze, the game will automatically restart.
 
+## Game Demo
+![](studio/game_demo.gif)
+
 ## Challenges
 ### Robot not guaranteed to find the exit
 
@@ -70,7 +73,7 @@ ENVIRO: The multi-agent, multi-user, multi-everything simulator
 - http://klavinslab.org/elma/functions_func.html
 
 Course Material:
-- https://github.com/tbonaciUW/EEP_520_Winter2022
+- https://github.com/sosper30/eep520
 
-## License
-MIT
+## LICENSE
+[MIT License](/LICENSE)
