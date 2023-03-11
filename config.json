@@ -1,0 +1,190 @@
+{
+
+    "name": "Maze",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "buttons": [
+        {
+            "name": "restart",
+            "label": "Restart",
+            "style": { "background": "white", "borderColor": "black" }
+        },
+        {
+            "name": "player",
+            "label": "Control Robot",
+            "style": { "background": "white", "borderColor": "black" }
+        },
+        {
+            "name": "selfWander",
+            "label": "Self Wander",
+            "style": { "background": "white", "borderColor": "black" }
+        }
+    ],
+
+    "agents": [  
+        {
+            "definition": "defs/wanderer.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": {
+                "x": -300, 
+                "y": -300, 
+                "theta": 0
+            }
+        }
+    ],
+
+    "statics": [
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -350 },
+                { "x": -350,  "y": 350 },
+                { "x": -340,  "y": 350 },
+                { "x": -340, "y": -350 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 350, "y": -350 },
+                { "x": 350,  "y": 350 },
+                { "x": 340,  "y": 350 },
+                { "x": 340, "y": -350 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": 350 },
+                { "x": 250,  "y": 350 },
+                { "x": 250,  "y": 340 },
+                { "x": -350, "y": 340 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -350 },
+                { "x": 350,  "y": -350 },
+                { "x": 350,  "y": -340 },
+                { "x": -350, "y": -340 }
+            ]
+        },
+        {
+            "style": { "fill": "none", "stroke": "gray", "stroke-width": 5 },
+            "shape": [
+                { "x": -350, "y": -250 },
+                { "x": -50, "y": -250 }
+            ]
+        },
+        {
+            "style": { "fill": "none", "stroke": "gray", "stroke-width": 5 },
+            "shape": [
+                { "x": -250, "y": -250 },
+                { "x": -250, "y": 250 }
+            ]
+        },
+        {
+            "style": { "fill": "none", "stroke": "gray", "stroke-width": 5 },
+            "shape": [
+                { "x": -150, "y": -50 },
+                { "x": -150, "y": 350 }
+            ]
+        },
+        {
+            "style": { "fill": "none", "stroke": "gray", "stroke-width": 5 },
+            "shape": [
+                { "x": -150, "y": 250 },
+                { "x": -50, "y": 250 }
+            ]
+        },
+        {
+            "style": { "fill": "none", "stroke": "gray", "stroke-width": 5 },
+            "shape": [
+                { "x": -50, "y": 150 },
+                { "x": -50, "y": 250 }
+            ]
+        },
+        {
+            "style": { "fill": "none", "stroke": "gray", "stroke-width": 5 },
+            "shape": [
+                { "x": -50, "y": -50 },
+                { "x": -50, "y": 50 }
+            ]
+        },
+        {
+            "style": { "fill": "none", "stroke": "gray", "stroke-width": 5 },
+            "shape": [
+                { "x": -50, "y": -150 },
+                { "x": 150, "y": -150 }
+            ]
+        },
+        {
+            "style": { "fill": "none", "stroke": "gray", "stroke-width": 5 },
+            "shape": [
+                { "x": -50, "y": 50 },
+                { "x": 150, "y": 50 }
+            ]
+        },
+        {
+            "style": { "fill": "none", "stroke": "gray", "stroke-width": 5 },
+            "shape": [
+                { "x": -50, "y": -50 },
+                { "x": -50, "y": 50 }
+            ]
+        },
+        {
+            "style": { "fill": "none", "stroke": "gray", "stroke-width": 5 },
+            "shape": [
+                { "x": 50, "y": 150 },
+                { "x": 50, "y": 350 }
+            ]
+        },
+        {
+            "style": { "fill": "none", "stroke": "gray", "stroke-width": 5 },
+            "shape": [
+                { "x": 150, "y": -350 },
+                { "x": 150, "y": -150 }
+            ]
+        },
+        {
+            "style": { "fill": "none", "stroke": "gray", "stroke-width": 5 },
+            "shape": [
+                { "x": 150, "y": 50 },
+                { "x": 150, "y": 350 }
+            ]
+        },
+        {
+            "style": { "fill": "none", "stroke": "gray", "stroke-width": 5 },
+            "shape": [
+                { "x": 250, "y": -250 },
+                { "x": 350, "y": -250 }
+            ]
+        },
+        {
+            "style": { "fill": "none", "stroke": "gray", "stroke-width": 5 },
+            "shape": [
+                { "x": 250, "y": -150 },
+                { "x": 250, "y": 250 }
+            ]
+        },
+        {
+            "style": { "fill": "none", "stroke": "gray", "stroke-width": 5 },
+            "shape": [
+                { "x": 250, "y": 150 },
+                { "x": 350, "y": 150 }
+            ]
+        },
+        {
+            "style": { "fill": "none", "stroke": "gray", "stroke-width": 5 },
+            "shape": [
+                { "x": 50, "y": -250 },
+                { "x": 50, "y": -350 }
+            ]
+        }
+        
+    ]
+    
+
+}
